@@ -12,9 +12,10 @@ CONFIG_TARGET_IMAGES_GZIP=y
 # CONFIG_SIGNED_PACKAGES is not set
 # CONFIG_TARGET_ROOTFS_SQUASHFS=y
 
-CONFIG_PACKAGE_luci-app-uhttpd=y
+CONFIG_PACKAGE_luci-ssl-openssl=y
+CONFIG_PACKAGE_ca-bundle=y
 CONFIG_PACKAGE_luci-i18n-uhttpd=y
-CONFIG_PACKAGE_luci-app-accesscontrol=y
+## CONFIG_PACKAGE_luci-app-accesscontrol=y
 CONFIG_PACKAGE_luci-app-udpxy=y
 CONFIG_PACKAGE_xray-core=y
 CONFIG_PACKAGE_vim-full=y
